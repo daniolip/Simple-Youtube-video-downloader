@@ -39,6 +39,7 @@ def SelectType(yt_list):
         if(item.type not in type_list):
             type_list.append(item.type)
     type_list.sort()
+    
 
     # Which type to use
     if(len(type_list) > 1):
